@@ -1,0 +1,59 @@
+generated: '2026-10-21'
+method: searched
+source: https://www.hmccapital.com.au/privacy-policy/
+scope_note: >-
+  HomeCo Daily Needs REIT (ASX: HDN) is managed by HMC Capital and has no legal pages of its own on the
+  record. The privacy policy linked from www.hmccapital.com.au states it is adopted by "HMC Capital Limited
+  and each of its subsidiaries except as noted below", under the Australian Privacy Principles in the
+  Privacy Act 1988 (Cth). The signals below are HMC Capital group-level posture. The terms page
+  (https://www.hmccapital.com.au/terms/, HTTP 200) was also read and addresses none of the vocabulary signals.
+signals:
+  data_subject_request:
+    url: https://www.hmccapital.com.au/privacy-policy/
+    section: Access and correction of information
+    channel: privacy@hmccapital.com.au (Privacy Officer), phone 1300 466 326
+    rights_named: [access, correction]
+    evidence:
+    - source: https://www.hmccapital.com.au/privacy-policy/
+      http_status: 200
+      fetched: '2026-10-21'
+      quote: >-
+        You have a right to request access and correction of any personal information which we collect and
+        hold about you using the contact information below. Please provide as much detail as you can about the
+        information required, to help us retrieve it. We may need to verify your identity.
+    - source: https://www.hmccapital.com.au/privacy-policy/
+      http_status: 200
+      fetched: '2026-10-21'
+      quote: >-
+        We may deny your request for access or correction in some circumstances, but if we do this, we usually
+        have to tell you why.
+    note: >-
+      Access and correction rights under the Australian Privacy Principles, with identity verification and
+      reasons on refusal. Deletion and portability are not named, and no response time is stated.
+  subprocessors:
+    url: https://www.hmccapital.com.au/privacy-policy/
+    section: Exchange of Personal Information with Third Parties
+    evidence:
+    - source: https://www.hmccapital.com.au/privacy-policy/
+      http_status: 200
+      fetched: '2026-10-21'
+      quote: >-
+        We may exchange personal information with (i.e. collect it from and disclose it to) our service
+        providers and contractors such as organisations who provide fund administration, property management,
+        archival, auditing, professional advisory (including legal, accounting and business consulting), debt
+        collection, banking, marketing, advertising, communication, mail house, delivery, recruitment, call
+        centre, contact management, technology, research, analytics, utility, cleaning and security services.
+    note: >-
+      Discloses CATEGORIES of service providers that receive personal information. It does not publish a
+      named subprocessor list.
+  data_residency:
+    url: https://www.hmccapital.com.au/privacy-policy/
+    section: Exchange of Personal Information with Third Parties
+    evidence:
+    - source: https://www.hmccapital.com.au/privacy-policy/
+      http_status: 200
+      fetched: '2026-10-21'
+      quote: Some of the parties we disclose personal information to may be located outside Australia, including in New Zealand and UK.
+    note: >-
+      Cross-border disclosure statement (APP 8). Personal information may leave Australia, and New Zealand and
+      the UK are named as destinations. There is no commitment to keep data in Australia.

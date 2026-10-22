@@ -1,0 +1,9 @@
+generated: '2026-10-21'
+method: none
+note: No first-party SDKs or client libraries. The provider publishes no API or developer docs; registry lookups for "homeco" and "hmccapital" returned 404.
+checked:
+- https://registry.npmjs.org/homeco   # 404
+- https://pypi.org/pypi/homeco/json   # 404
+- https://registry.npmjs.org/hmccapital   # 404
+- https://pypi.org/pypi/hmccapital/json   # 404
+packages: []

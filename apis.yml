@@ -1,23 +1,80 @@
 aid: homeco-daily-needs-reit
+
 name: HomeCo Daily Needs REIT
-description: 'HomeCo Daily Needs REIT is a company surfaced via the API Evangelist harvest backlog (source:
-  australia-apidays-2026) and added to the network as a stub for full-pipeline profiling.'
+
+description: 'HomeCo Daily Needs REIT (ASX: HDN) is an Australian Real Estate Investment Trust listed on
+  the ASX with a mandate to invest in convenience-based assets across Neighbourhood Retail, Large Format
+  Retail and Health & Services, aiming to provide unitholders with consistent and growing distributions.
+  It is managed by HMC Capital (ASX: HMC), whose site hosts the REIT''s page (reported at $5.2bn assets
+  under management across 46 properties). No public API or developer program was found. Surfaced via the
+  API Evangelist harvest backlog (source: australia-apidays-2026).'
+
 url: https://raw.githubusercontent.com/api-evangelist/homeco-daily-needs-reit/refs/heads/main/apis.yml
+
+image: https://www.hmccapital.com.au/sites/hmc/cache/file/DFE9A829-3945-44FE-80D92685FA03F038_ogimage.png
+
 x-type: company
+
 x-source: harvest:australia-apidays-2026
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-21 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-21'
+
 modified: '2026-10-21'
+
 tags:
 - Company
-apis: []
+- Real Estate
+- REIT
+- Retail Property
+- Australia
+- ASX Listed
+- Investment Trust
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: Hosts
+  url: hosts/homeco-daily-needs-reit-hosts.yml
+- type: DomainSecurity
+  url: security/homeco-daily-needs-reit-domain-security.yml
 - type: Website
-  url: https://hmccapital.com.au/
+  url: https://www.hmccapital.com.au/investment-strategies/real-estate/homeco-daily-needs-reit/
+- type: ParentCompany
+  url: https://www.hmccapital.com.au/
+- type: PrivacyPolicy
+  url: https://www.hmccapital.com.au/privacy-policy/
+- type: TermsOfService
+  url: https://www.hmccapital.com.au/terms/
+
+apis: []
+
+x-coverage:
+  state: covered
+  reason: identity-verified
+  detail: 'HDN has no standalone domain found; its official page lives on its manager HMC Capital''s
+    site (title "HomeCo Daily Needs REIT - HMC Capital", "ASX HDN"). No API, developer portal, docs or
+    status page published. hdn.com.au / homecodailyneeds.com.au did not resolve.'
+  evidence:
+  - url: https://www.hmccapital.com.au/investment-strategies/real-estate/homeco-daily-needs-reit/
+    status: 200
+  - url: https://www.hmccapital.com.au/
+    status: 200
+  - url: https://www.hmccapital.com.au/privacy-policy/
+    status: 200
+  - url: https://www.hmccapital.com.au/terms/
+    status: 200
+x-enrichment:
+  date: '2026-10-21'
+  status: enriched
+  artifacts_added: 9
+  pass: modular-v1
+  engine: identity=anthropic,contract=anthropic,surfaces=anthropic,docs=anthropic,regulatory=anthropic

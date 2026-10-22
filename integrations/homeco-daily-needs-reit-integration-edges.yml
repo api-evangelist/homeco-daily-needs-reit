@@ -1,0 +1,20 @@
+generated: '2026-10-21'
+method: none
+source:
+- https://zapier.com/apps/homeco-daily-needs-reit/integrations
+- https://n8n.io/integrations/homeco-daily-needs-reit/
+- https://composio.dev/toolkits/homeco-daily-needs-reit
+- https://monid.ai/tools/homeco-daily-needs-reit
+checked:
+- https://zapier.com/apps/homeco/integrations
+- https://www.hmccapital.com.au/investment-strategies/real-estate/homeco-daily-needs-reit/
+- https://www.hmccapital.com.au/
+- https://composio.dev/toolkits/homeco-daily-needs-reit
+- https://monid.ai/tools/homeco-daily-needs-reit
+- https://n8n.io/integrations/homeco-daily-needs-reit/
+- https://zapier.com/apps/homeco-daily-needs-reit/integrations
+summary: No integrations, marketplace listings or partner integration page found. HomeCo Daily Needs REIT (ASX:HDN)
+  is a listed property trust with no public API; its page is hosted on manager HMC Capital's site.
+marketplace_apps: []
+edges: []
+templates: []
